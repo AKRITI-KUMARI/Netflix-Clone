@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.main{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/f272782d-cf96-4988-a675-6db2afd165e0/web/IN-en-20241008-TRIFECTA-perspective_b28b640f-cee0-426b-ac3a-7c000d3b41b7_large.jpg"); 
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 100vh;   
+    position: relative;
+}
+.main .blackbox{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 78vw;
+    margin: auto;
+    height: 85px;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+nav span img{
+    color: red;
+    width: 150px;
+}
+nav div{
+    display: flex;
+    gap: 10px;
+}
+#b1{
+    font-size: 15px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+.b2{
+    font-size: 15px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.b2:hover{
+    background-color: yellow;
+    color: black;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    margin-top: 85px;
+    gap: 20px;
+}
+.text h1{
+    margin-left: 30vw;
+    margin-right: 30vw;
+    font-size: 53px;
+    font-weight: 800;
+    text-align: center;
+}
+.text p{
+    font-size: 20px;
+}
+.text .login{
+    display: flex;
+    gap: 10px;
+}
+.text .login #email{
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 15px 15px;
+    padding-right: 200px;
+    background-color: black;
+    color: white;
+}
+.text .login button{
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 15px 25px;
+}
+.secondary{
+    background-color: black;
+    padding-bottom: 100px;
+}
+.heading{
+    font-size: 25px;
+}
+.item1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-top: 40px;
+    color: white;
+    gap: 20px;
+}
+.choose{
+    display: flex;
+    gap: 25px;
+}
+.images{
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+}
+.images img{
+    border-radius: 10px;
+    height: 250px;
+    cursor: pointer;
+}
+.item2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-top: 50px;
+    color: white;
+    gap: 20px;
+}
+.boxes{
+    display: flex;
+    gap: 15px;
+}
+.box{
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: rgb(34, 24, 59);
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+}
+.box:hover{
+    background-color: rgb(60, 4, 112);
+}
+.item3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-top: 50px;
+    color: white;
+    gap: 20px;
+}
+.bars{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bar{
+    box-sizing: border-box;
+    height: 80px;
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    flex-flow: wrap column;
+    align-content: space-between;
+    padding: 30px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.bar:hover{
+    background-color: gray;
+}
+.item4{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-top: 50px;
+    color: white;
+    gap: 50px;
+}
+.item4 .part1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.item4 p{
+    font-size: 17px;
+}
+.item4 .login{
+    display: flex;
+    gap: 10px;
+} 
+.item4 .login #email{
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 15px 15px;
+    padding-right: 400px;
+    background-color: black;
+    color: white;
+}
+.item4 .login button{
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 15px 25px;
+}
+.part2 :nth-child(2){
+    text-decoration: underline;
+}
+.item4 .part3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+    text-decoration: underline;
+}
